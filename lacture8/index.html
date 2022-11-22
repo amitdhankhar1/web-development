@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+
+
+    <style>
+
+        .form-section{
+
+            background-color: gainsboro;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 10px 4px 53px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 4px 53px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 4px 53px 7px rgba(0,0,0,0.75);
+background: rgb(238,33,33);
+background: linear-gradient(90deg, rgba(238,33,33,1) 0%, rgba(17,99,120,1) 60%);
+
+        }
+
+input{
+
+    border-radius: 5px;
+
+
+}
+#submit{
+
+
+    background-color: aquamarine;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+    
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section class="form-section">
+
+    <h2>Login</h2>
+<form method="GET" action="formdata.html" target="_self">
+
+
+<label for="emial">Email</label><br><input type="email" id="email" name="emial" value=""><br>
+<label for="pass">Pass</label><br><input type="password" id="pass"  name="pass" value=""><br>
+<input type="radio" id="male" name="GENEDER" value="MALE"><label for="male">Male</label>
+<input type="radio" id="female" NAME="GENEDER" value="FEMALE"><label for="female">FeMale</label>
+<BR>
+<input id="submit" type="submit" value="Login">
+
+
+</form>
+
+</section>
+
+
+    
+</body>
+</html>
